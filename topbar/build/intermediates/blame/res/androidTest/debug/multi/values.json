@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/Tony/AndroidStudioProjects/as_project_space/TopBarDemo/topbar/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 1184,
+                    "endColumn": 43,
+                    "endOffset": 1223
+                },
+                "from": {
+                    "file": "/Users/Tony/AndroidStudioProjects/as_project_space/TopBarDemo/topbar/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 1184,
+                        "endColumn": 43,
+                        "endOffset": 1223
+                    }
+                }
+            }
+        ]
+    }
+]

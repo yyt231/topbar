@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="topbar_layout">
+        <!--左面控件的类型-->
+        <attr name="left_control_type" format="string"></attr>
+        <attr name="left_control_widht" format="dimension"/>
+        <attr name="left_control_height" format="dimension"/>
+        
+        <!--左面的控件为文字-->
+        <!--中间控件的文字-->
+        <attr name="left_control_text" format="string"/>
+        <!--中间控件的背景颜色-->
+        <attr name="left_control_bgcolor" format="color"/>
+        <!--中间控件的文字大小-->
+        <attr name="left_control_textsize" format="dimension"/>
+        <!--中间控件的文字颜色-->
+        <attr name="left_control_textcolor" format="color|reference"/>
+        <!--end 左面的控件为文字-->
+        <!--左面的控件为ImageView-->
+        <!--中间控件的src-->
+        <attr name="left_control_src" format="reference"/>
+        <!--end 左面的控件为ImageView-->
+        
+        <!--右面控件的类型-->
+        <attr name="right_control_type" format="string"/>
+        <attr name="right_control_widht" format="dimension"/>
+        <attr name="right_control_height" format="dimension"/>
+
+        <!--左面的控件为文字-->
+        <!--中间控件的文字-->
+        <attr name="right_control_text" format="string"/>
+        <!--中间控件的背景颜色-->
+        <attr name="right_control_bgcolor" format="color"/>
+        <!--中间控件的文字大小-->
+        <attr name="right_control_textsize" format="dimension"/>
+        <!--中间控件的文字颜色-->
+        <attr name="right_control_textcolor" format="color"/>
+        <!--end 左面的控件为文字-->
+        <!--左面的控件为ImageView-->
+        <!--中间控件的src-->
+        <attr name="right_control_src" format="string|reference"/>
+        <!--end 左面的控件为ImageView-->
+        
+        
+        <!--中间控件的文字-->
+        <attr name="middle_control_text" format="string"/>
+        <!--中间控件的背景颜色-->
+        <attr name="middle_control_bgcolor" format="color|reference"/>
+        <!--中间控件的文字大小-->
+        <attr name="middle_control_textsize" format="dimension"/>
+        <!--中间控件的文字颜色-->
+        <attr name="middle_control_textcolor" format="color"/>
+        
+    </declare-styleable>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/Tony/AndroidStudioProjects/as_project_space/TopBarDemo/topbar/src/main/assets"/><source path="/Users/Tony/AndroidStudioProjects/as_project_space/TopBarDemo/topbar/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/Tony/AndroidStudioProjects/as_project_space/TopBarDemo/topbar/src/release/assets"/></dataSet></merger>
