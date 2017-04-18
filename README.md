@@ -1,10 +1,10 @@
-#更新内容
+# 更新内容
 - 更新control_type的类型为枚举类型
 - 修改control_textsize的大小，推荐使用SP
-#TopBar
+# TopBar
 包含3个控件（左中右），其中中间为TextView，左右两个控件可以是ImageView或TextView
-##属性介绍
-####topbar_left_control_type和topbar_right_control_type（必要属性）
+## 属性介绍
+#### topbar_left_control_type和topbar_right_control_type（必要属性）
 左右两个控件的类型，判断该控件为ImageView还是TextView。**这个属性使用imageview和textview两个枚举值**
 ```
 <attr name="topbar_left_control_type">
@@ -16,7 +16,7 @@
     <enum name="textview" value="201"/>
 </attr>
 ```
-####topbar_left_control_src和topbar_right_control_src
+#### topbar_left_control_src和topbar_right_control_src
 当topbar_left_control_type和topbar_right_control_type和topbar_left_control_type和topbar_right_control_type为imgview的时候，才能生效。
 ```
 <attr name="topbar_left_control_src" format="reference" />
@@ -28,13 +28,13 @@
 <attr name="topbar_left_control_text" format="string|reference" />
 <attr name="topbar_right_control_text" format="string|reference" />
 ```
-####topbar_left_control_textsize和topbar_right_control_textsize
+#### topbar_left_control_textsize和topbar_right_control_textsize
 和TextVIew的textSize一样，**推荐使用sp的单位**
 ```
 <attr name="topbar_left_control_textsize" format="dimension" />
 <attr name="topbar_right_control_textsize" format="dimension" />
 ```
-####左右控件的点击事件
+#### 左右控件的点击事件
 ```
   topBar= (TopBar) findViewById(R.id.topbar);
         topBar.setOnClickLisnter(new TopBar.CtrolClickLisnter() {
@@ -115,7 +115,7 @@
     </declare-styleable>
 </resources>
 ```
-##举个例子
+## 举个例子
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
